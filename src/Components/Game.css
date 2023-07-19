@@ -1,0 +1,16 @@
+.Game {
+    min-height: 42vh;
+    display: flex;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Winner {
+    /*min-height: 20vh; */
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(16px + 2vmin);
+    font-weight: 600;
+    color: white;
+}

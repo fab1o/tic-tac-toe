@@ -1,0 +1,36 @@
+.Video {
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.Video video {
+    --width: 304px;
+    width: var(--width);
+    height: calc(var(--width) * 1);
+    margin: 0 0 20px 0;
+    vertical-align: top;
+    background-color: black;
+    border: 1px solid #999;
+}
+
+.Video video#localVideo {
+    margin: 0 20px 20px 0;
+}
+
+@media screen and (max-width: 923px) {
+    .Video {
+        display: none;
+    }
+}
+
+.Video .Start {
+    min-height: 8vh;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    min-width: 212px;
+}
+.Video .Start button {
+    font-size: calc(16px + 2vmin);
+    font-weight: bold;
+}

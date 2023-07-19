@@ -1,0 +1,12 @@
+.Controls {
+    display: flex;
+    min-height: 8vh;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.Controls button {
+    font-size: calc(16px + 2vmin);
+    font-weight: bold;
+}

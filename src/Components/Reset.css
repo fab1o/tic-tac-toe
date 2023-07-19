@@ -1,0 +1,11 @@
+.Reset {
+    min-height: 8vh;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    min-width: 212px;
+}
+.Reset button {
+    font-size: calc(16px + 2vmin);
+    font-weight: bold;
+}
